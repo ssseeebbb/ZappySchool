@@ -1004,18 +1004,19 @@ height: 100%;
 		background-color: transparent;
 		left: 0;
 		position: absolute;
+		/*color:#ff9900;*/
 		top: 0;
 	}
 
 		body.landing #header nav a {
-			color: rgba(255, 255, 255, 0.5);
+			color: rgba(255, 255, 255, 1); /*Couleur du menu sans souris*/
 		}
 
 	#header {
 		background-color: #383b43;
 		color: #ffffff;
 		cursor: default;
-		font-size: 1.1em;
+		font-size: 1.4em;
 		height: 6em;
 		line-height: 6em;
 		width: 100%;
@@ -1069,8 +1070,8 @@ height: 100%;
 					}
 
 						#header nav > ul > li a:active, #header nav > ul > li a:hover {
-							color: #ffffff;
-						}
+							color:#ff9900;
+						} /*couleur du menu une fois la souris dessus*/
 
 					#header nav > ul > li:first-child {
 						margin-left: 0;
@@ -1098,16 +1099,17 @@ height: 100%;
 
 			#header .container nav {
 				right: 0;
+
 			}
 
 /* Banner */
 
 	#banner {
-		background-image: url(../images/dark_tint.png), url(../images/GroupeTravail.jpg);
+		background-image: /*url(../images/dark_tint.png),*/ url(../images/GroupeTravail2.jpg);
 		background-position: center center;
 		background-size: cover;
 		color: #ffffff;
-		padding: 14em 0em 14em;
+		padding: 23em 0em 14em;
 		text-align: center;
 	}
 
